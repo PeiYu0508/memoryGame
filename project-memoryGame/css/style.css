@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  text-decoration: none
+}
+
+
+
+
+#wrap {
+  width: 1024px;
+  height: 550px;
+  margin: 12px auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid #000;
+}
+#home {
+  width: 1024px;
+  height: 550px;
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  
+}
+#startBtn {
+  width: 140px;
+  height: 70px;
+  border-radius: 15px;
+  position: relative;
+  top: 220px;
+  left: 300px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#start {
+  width: 100%;
+  height: 100%;
+  background: #ACCBD0;
+  display: none;
+}
+#block1 {
+  padding-top: 10px;
+}
+.block {
+  padding-left: 10px;
+}
+#start img {
+  width: 100px;
+  margin: 5px 5px;
+}
+#times {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -480px;
+  right: -455px;
+}
+#times span {
+  font-size: 20px;
+  color: rgb(53, 51, 202);
+}
+#others button {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: -450px;
+  left: 923px;
+}
+#pass {
+  width: 1024px;
+  height: 550px;
+  background: rgb(0, 0, 0, 0.5);
+  position: relative;
+  top: -583px;
+  left: 0;
+  display: none;
+}
+#passBlock {
+  width: 750px;
+  height: 450px;
+  background: #F0FFF5;
+  margin: 0 auto;
+  border: 10px solid  #00BBC2;
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+#passBlock h1 {
+  font-family: fantasy;
+  color: #00BBC2;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+#passBlock button {
+  width: 150px;
+  height: 75px;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+#tryAgainBtn {
+  margin-left: 180px;
+  margin-right: 60px;
+  margin-top: 100px;
+}
